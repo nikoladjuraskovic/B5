@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+}
+
+.t-center {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #487f2e;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav .col {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #c4fea9;
+}
+
+.bg-yellow {
+  background-color: #fefa99;
+}
+
+.padding {
+  padding-top: 25px;
+  padding-left: 170px;
+  padding-bottom: 25px;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5b803d;
+  font-size: 40px;
+}
+
+.main {
+  background-color: #fefa99;
+}
+
+.fill {
+  height: 60vh;
+}
+
+.footer {
+  background-color: #487f2e;
+  padding: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fefa99;
+}
+
+.active{
+  background-color: green;
+  
+}
+
+.active a{
+  color:#fefa99; 
+}
+
+
+#naslov{
+    color: green;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#muzickaKultura{
+  width: 50px;
+  margin: 0px;
+  color: green;
+  text-shadow: rgb(28, 27, 24) 1px 0 10px;
+  position: relative;
+  left: 500px;
+  top: 110px;
+  font-size: 40pt;
+  letter-spacing: .8rem;
+  height: fit-content;
+}
+
+.content{
+  display: flex;
+  height: 990px;
+}
+
+#tabela{
+  position: relative;
+  left: 300px;
+  top: 100px;
+  padding: 0;
+}
+
+
+table, td{
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+td{
+  padding: 3px;
+  background-color: #c4fea9;
+  font-size: 20pt;
+}
+
+.first_row{
+  background-color: #5b803d;
+  color:#fefa99;
+  font-size: medium;
+  padding: 15px;
+  
+}
+
+
+.images{
+  width: 50px;
+  height: 60px;
+}
+
+.saznaj{
+  color: purple;
+  text-decoration: underline;
+  font-size: 9pt;
+}
+
+#prozor{
+  background-color: #fefa99;
+  text-align: center;
+
+}
+
+
+.naslov{
+  color: green;
+}
