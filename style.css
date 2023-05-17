@@ -47,6 +47,9 @@
 }
 
 .heading {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -72,90 +75,78 @@
   color: #fefa99;
 }
 
-.active{
+.active {
   background-color: green;
-  
 }
 
-.active a{
-  color:#fefa99; 
+.active a {
+  color: #fefa99;
 }
 
-
-#naslov{
-    color: green;
-    font-size: 20pt;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 10px;
+#naslov {
+  color: green;
+  font-size: 20pt;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
-
-#muzickaKultura{
-  width: 50px;
+#muzickaKultura {
+  /* width: 30%; */
   margin: 0px;
   color: green;
   text-shadow: rgb(28, 27, 24) 1px 0 10px;
-  position: relative;
-  left: 500px;
-  top: 110px;
+  position: absolute;
   font-size: 40pt;
-  letter-spacing: .8rem;
+  left: 150px;
+  letter-spacing: 0.8rem;
   height: fit-content;
 }
 
-.content{
+.content {
   display: flex;
-  height: 990px;
-}
-
-#tabela{
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  height: 800px;
   position: relative;
-  left: 300px;
-  top: 100px;
-  padding: 0;
 }
 
-
-table, td{
+table,
+td {
   border: 1px solid black;
   text-align: center;
-
 }
 
-td{
+td {
   padding: 3px;
   background-color: #c4fea9;
   font-size: 20pt;
 }
 
-.first_row{
+.first_row {
   background-color: #5b803d;
-  color:#fefa99;
+  color: #fefa99;
   font-size: medium;
   padding: 15px;
-  
 }
 
-
-.images{
+.images {
   width: 50px;
   height: 60px;
 }
 
-.saznaj{
+.saznaj {
   color: purple;
   text-decoration: underline;
   font-size: 9pt;
 }
 
-#prozor{
+#prozor {
   background-color: #fefa99;
   text-align: center;
-
 }
 
-
-.naslov{
+.naslov {
   color: green;
 }
